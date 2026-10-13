@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Peekpane",
+  "version": "0.1.0",
+  "description": "Ask about your screen in a floating panel, without switching to chat.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.anthropic.com/*"],
+  "action": {"default_popup": "src/popup.html", "default_title": "Open Peekpane"}
+}
